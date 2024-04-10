@@ -30,7 +30,7 @@ import cv2
 ```
 ### Read the Image and convert to grayscale
 ```
-image = cv2.imread("deadpool",1)
+image = cv2.imread("deadpool.jpg",1)
 image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
 image_gray = cv2.imread("dark.jpeg",0)
 ```
